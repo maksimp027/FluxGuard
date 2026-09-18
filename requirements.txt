@@ -1,0 +1,15 @@
+# Orchestration & Tracking
+apache-airflow==2.9.0
+mlflow==2.11.1
+
+# Streaming & Data
+kafka-python==2.0.2
+redis==5.0.3
+psycopg2-binary==2.9.9
+pandas==2.2.1
+
+# ML & Inference
+scikit-learn==1.4.1.post1
+xgboost==2.0.3
+onnx==1.16.0
+onnxmltools==1.12.0
