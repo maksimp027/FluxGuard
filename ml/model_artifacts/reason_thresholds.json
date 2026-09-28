@@ -1,0 +1,13 @@
+{
+  "decline_threshold": 0.70,
+  "review_3ds_threshold": 0.30,
+  "high_velocity_5m_limit": 3,
+  "high_velocity_60m_limit": 10,
+  "reasons": {
+    "HIGH_VELOCITY_5M": "More than 3 transactions within 5 minutes for this card",
+    "HIGH_VELOCITY_60M": "More than 10 transactions within 60 minutes for this card",
+    "CVV_MISMATCH": "Card verification value mismatch",
+    "NO_3DS_VERIFICATION": "3D-Secure authentication was not performed",
+    "HIGH_ML_SCORE": "Machine learning risk score exceeds 0.50"
+  }
+}
